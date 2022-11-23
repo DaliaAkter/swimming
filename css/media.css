@@ -1,0 +1,437 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/*common*/
+	.section_padding{
+	padding-bottom: 30px !important;
+	}
+	.center_align{
+		text-align: center;
+		justify-content: center;
+		
+	}
+	/*header start*/
+	header{
+		padding: 10px 0;
+	}
+	.logo {
+    font-size: 25px;
+	}
+		.menu ul li a{
+		padding: 10px 0 0 !important;
+		text-align: right;
+	}
+	.menu ul li:last-child a{
+		padding-bottom: 0 !important;
+	}
+	.menu ul li a:hover {
+		color: blue !important;
+		    background: none;
+		/*border-bottom: 2px solid;*/
+
+	}
+	/*banner*/
+	.b_item {
+	margin: -20px 25px 0;
+    min-height: 260px;
+	}
+	.blu,.pink, .vio{
+	   margin-top: 20px;
+	}
+		.b_h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+	}
+	/*welcome*/
+	.wlc_text, .s_text {
+	    padding: 15px 16px;
+	    text-align: center;
+	}
+    .c_mb{
+    margin-bottom: 20px;
+    }
+    .c_h2{
+    font-size: 25px;
+	}
+.btn_common {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+	/*ratings*/
+
+	.ratings{
+		margin-bottom: 30px;
+	}
+	.r_item{
+		text-align: center;
+	    padding: 30px 25px;
+	}
+	/*events*/
+	.e_item{
+		padding: 30px 25px;
+	}
+	.mb_h2{
+	text-align: center;
+	}
+	.e_img img{
+		width: 100%;
+	}
+	/*review*/
+	.review {
+    padding: 0 0px;
+	}
+	.rev_item {
+    text-align: center;
+    margin-top: 40px;
+	}
+	.rev_img{
+		width: 80px;
+		margin-top: -40px;
+	}	
+	.rev_h2{
+	font-size: 20px;
+	}
+	/*contact*/
+	.contact{
+		text-align: center;
+	}
+	.con_item{
+		padding: 25px 35px;
+	}
+	.num_icon{
+		font-size: 18px;
+		margin-right: 10px;
+	}
+	.icons li a {
+    font-size: 25px;
+	}
+
+	
+	.num {
+	    font-size: 20px;
+	}
+	/*footer*/
+	footer{
+		padding: 10px 22px;
+	}	
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*common*/
+	.section_padding{
+	padding-bottom: 30px !important;
+	}
+		.center_align{
+		text-align: center;
+		justify-content: center;
+		
+	}
+	/*header start*/
+	header{
+		padding: 10px;
+	}
+	.logo {
+    font-size: 25px;
+	}
+	.menu ul li a{
+		padding: 10px 0 0 !important;
+		text-align: right;
+	}
+	.menu ul li:last-child a{
+		padding-bottom: 0 !important;
+	}
+	.menu ul li a:hover {
+		color: blue !important;
+		    background: none;
+		/*border-bottom: 2px solid;*/
+
+	}
+
+	/*banner*/
+	.pink, .vio{
+	   margin-top: 20px;
+	}
+	.b_item {
+	    min-height: 270px;
+	    padding: 15px 32px 15px;
+	}
+	.b_h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	    margin-bottom: 15px;
+	}
+
+	/*welcome-service*/
+	.wlc_text, .s_text {
+	    padding: 25px 55px;
+	    text-align: center;
+	}
+	   
+	.c_p{
+	margin: 15px 0px;
+	}
+	.c_h2{
+    font-size: 25px;
+	}
+	/*ratings*/
+	.ratings{
+		margin-bottom: 30px;
+	}
+	.r_item{
+	text-align: center;
+    padding: 30px 35px;
+
+	}
+	/*events*/
+	.e_item{
+		padding: 30px 91px;
+	}
+	.mb_h2{
+	text-align: center;
+	}
+	.e_img img{
+		width: 100%;
+	}
+	/*review*/
+	.review {
+    padding: 0 80px;
+	}
+	.rev_item {
+    text-align: center;
+    margin-top: 40px;
+	}
+	.rev_img{
+		width: 90px;
+		margin-top: -40px;
+
+	}
+
+	/*contact*/
+	.contact{
+		text-align: center;
+	}
+	.con_item{
+		padding: 25px 48px;
+	}
+	.num_icon{
+		font-size: 30px;
+		margin-right: 10px;
+	}	
+	.num {
+	    font-size: 25px;
+	}
+	/*footer*/
+	footer{
+		padding: 15px 0;
+	}	
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*common*/
+	.section_padding{
+	padding-bottom: 35px !important;
+	}
+	.center_align{
+		text-align: center;
+		justify-content: center;
+		
+	}
+	/*header start*/
+	header{
+		padding: 10px;
+	}
+.menu ul li a{
+	padding: 10px 0 0 !important;
+	text-align: right;
+}
+.menu ul li:last-child a{
+	padding-bottom: 0 !important;
+}
+.menu ul li a:hover {
+	color: blue !important;
+	    background: none;
+	/*border-bottom: 2px solid;*/
+
+}
+	/*banner*/
+	.pink, .vio{
+	   margin-top: 20px;
+	}
+	.b_item {
+    min-height: 240px;
+	}
+	.b_h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+	}
+	.b_p{
+	line-height: 25px;
+	}
+	/*welcome-service*/
+	.wlc_text, .s_text {
+	    padding: 25px 30px;
+	    text-align: center;
+	}
+	    .c_h2{
+    font-size: 32px;
+	}
+	.c_p{
+	margin: 15px 0px;
+	padding: 0 42px;
+	}
+	.c_img img{
+		width: 100%;
+	}
+	/*ratings*/
+	.ratings{
+	margin-bottom: 35px;
+	}
+	.r_item {
+	    padding: 25px 20px;
+	}
+	/*events*/
+	.e_item{
+		padding: 30px 180px;
+	}
+	.mb_h2{
+	text-align: center;
+	}
+	.e_img img{
+		width: 100%;
+	}
+	/*review*/
+	.review {
+    padding: 0 100px;
+	}
+	.rev_item {
+    padding: 20px 54px;
+    text-align: center;
+    margin-top: 50px;
+	}
+	.rev_img{
+		width: 110px;
+		margin-top: -60px;
+	}
+	/*contact*/
+/*contact*/
+.contact{
+	text-align: center;
+}
+.num_icon{
+	font-size: 25px;
+	margin-right: 10px;
+}	
+.num {
+    font-size: 30px;
+}	
+/*footer*/
+footer{
+	padding: 15px 0;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	header{
+    padding: 0;
+}
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	header{
+    padding: 0;
+}
+	/*banner*/
+.b_h2{
+    font-size: 40px;
+}
+
+/*welcome-service*/
+.wlc_text {
+    padding: 106px 30px;
+}
+.s_text {
+    padding: 84px 30px;
+}
+/*events*/
+.e_item {
+    padding: 87px 100px;
+}
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	header{
+    padding: 0;
+}
+    /*common*/
+    .c_h2{
+    font-size: 40px;
+	}
+
+	.btn_common{
+	font-size: 20px;
+	}
+	/*header*/
+	.logo{
+	width: 180px;
+	}
+	.menu ul li a{
+	font-size: 22px;
+
+	}
+	/*banner*/
+	.b_item{
+		padding: 20px 48px 20px;
+	}	
+
+	.b_h2{
+	    font-size: 40px;
+	}
+	.b_p{
+	line-height: 27px;
+	font-size: 20px;
+	}
+	/*welcome-service*/
+	.wlc_text {
+    padding: 101px 45px;
+	}
+	.s_text {
+    padding: 77px 45px;
+	}
+	.c_p {
+    margin: 35px 0;
+    font-size: 20px;
+    line-height: 38px;
+	}
+	/*ratings*/
+	.r_item{
+    padding: 50px 45px;
+	}
+	.r_item p{
+		font-size: 20px;
+	}
+	/*events*/
+	.e_item {
+	    padding: 73px 45px;
+	}
+
+	.e_item ul li{
+	margin-bottom: 30px;
+	font-size: 20px;
+	}
+	.e_item ul li i{
+    margin-right: 20px;
+	}
+	/*review*/
+   .rev_p {
+    font-size: 20px;
+	}
+}
